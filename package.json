@@ -1,0 +1,15 @@
+{
+  "name": "practical-9-in-memory-caching",
+  "version": "1.0.0",
+  "description": "ITUE301 AWDF Practical 9: In-Memory Caching and Query Optimization",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "benchmark": "node benchmark.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "node-cache": "^5.1.2"
+  }
+}
